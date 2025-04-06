@@ -9,8 +9,18 @@ const steps = [
   "Step 5: Checkout"
 ];
 
+
 function animateSteps() {
-  // Your code here
+  let i = 0;
+  const thing = setInterval(() => {
+    console.log(steps[i]);
+    i++;
+    if (i >= steps.length){
+      clearInterval(thing);
+    }
+  }, 100);
 }
+
+animateSteps();
 
 module.exports = { animateSteps };
