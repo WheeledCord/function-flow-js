@@ -3,14 +3,19 @@
 // TODO: Log the local role inside the function
 // TODO: Write another function 'showGlobalRole' that logs the global role
 
+
 let role = "guest";
 
 function setRole() {
-  // Your code here
+  let role = "admin";
+  console.log("Inside function:", role);
 }
 
 function showGlobalRole() {
-  // Your code here
+  console.log(role);
 }
 
 module.exports = { setRole, showGlobalRole, role };
+
+showGlobalRole();
+setRole();

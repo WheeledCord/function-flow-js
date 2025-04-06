@@ -3,7 +3,7 @@
 // TODO: Also create a function 'tenPercentOff' that returns 90% of a given value
 
 function applyDiscount(price, discountFn) {
-  // Your code here
+  
 }
 
 function tenPercentOff(amount) {
